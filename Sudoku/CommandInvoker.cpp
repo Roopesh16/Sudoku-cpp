@@ -26,5 +26,6 @@ InputCommand CommandInvoker::UndoCommand()
 		return undo;
 	}
 
+	cout << "\nNo more UNDO steps!\n";
 	return undo;
 }

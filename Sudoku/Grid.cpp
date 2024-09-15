@@ -113,7 +113,7 @@ bool Grid::GetInput(int row, int col,int value)
 		return true;
 	}
 		
-	cout << "\nWRONG INPUT\n";
+	cout << "\nValue : "<<value<<" is wrong!\n";
 	return false;
 }
 
